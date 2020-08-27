@@ -3,6 +3,7 @@ import React from 'react';
 import WeatherWidget from './COMPONENTS/WeatherWidget/WeatherWidget';
 
 function App() {
+  console.log(process.env);
   return (
     <div className="App">
       <WeatherWidget />
