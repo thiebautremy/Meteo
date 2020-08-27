@@ -1,7 +1,24 @@
 .weatherwidget {
+  padding: 1em;
   box-shadow: -12px 11px 14px rgba(0,0,0,0.69);
-  width: 10em;
-  background-color: aqua;
+  width: 12em;
+  background-color: rgb(65, 153, 153);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  color: rgb(30, 54, 54);
+  border-radius: 1em;
+  font-size: 1.2em;
+}
+
+.weatherwidget__coord {
+  font-style: italic;
+}
+
+.weatherwidget__temp {
+  font-size: 1.5em;
+}
+
+.weatherwidget__coord, .weatherwidget__weather,
+.weatherwidget__temp {
+  text-align: end;
 }
