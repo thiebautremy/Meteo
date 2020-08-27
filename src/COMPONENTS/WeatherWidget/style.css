@@ -20,7 +20,6 @@
 .weatherwidget__temp, .weatherwidget__city {
   font-size: 1.5em;
 }
-
 .weatherwidget__coord, .weatherwidget__weather,
 .weatherwidget__temp {
   text-align: end;
