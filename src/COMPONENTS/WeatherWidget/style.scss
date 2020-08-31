@@ -1,0 +1,33 @@
+.weatherWidget {
+  
+  box-shadow: -5px 4px 5px rgba(0,0,0,0.69);
+  width: max-content;
+  background: rgb(53, 53, 53);
+  // background: linear-gradient(315deg, rgba(7,154,125,1) 2%, rgba(0,212,255,1) 65%, rgba(0,212,255,1) 81%);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(5, 5, 5);
+  border-radius: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  &__cityInfo {
+    padding: 1em 1em;
+    &__city {
+      font-size: 1.5em;
+    }
+  }
+
+  &__weather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    &__image {
+      margin-left: 5em;
+    }
+    &__temp {
+      font-size: 1.5em;
+      padding-right: 1em;
+    }
+  }
+}
