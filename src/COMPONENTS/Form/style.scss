@@ -1,0 +1,13 @@
+.form {
+  height: 4em;
+  &__input {
+    background-color: rgb(80, 79, 79);
+    border: 0.8px solid black ;
+    &:hover{
+      background-color: rgb(116, 114, 114);
+    }
+    &::placeholder {
+      color: black;
+    }
+  }
+}
